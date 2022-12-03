@@ -1,9 +1,11 @@
-import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import './app.css'
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable @next/next/no-img-element */
+import { useState } from "preact/hooks";
+import preactLogo from "./assets/preact.svg";
+import "./app.css";
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -28,5 +30,5 @@ export function App() {
         Click on the Vite and Preact logos to learn more
       </p>
     </>
-  )
+  );
 }
