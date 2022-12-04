@@ -1,14 +1,13 @@
 org: fatih255
-app: aws-node-project
-service: aws-node-project
+app: serverlessawsnode
+service: serverlessawsnode
 
 frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs14.x
-plugins:
-  - serverless-offline
+
 functions:
   hello:
     handler: handler.hello
